@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: timetracker-config
+  namespace: timetracker
+data:
+  NODE_ENV: "production"
+  PORT: "3000"
+  NEXT_PUBLIC_SUPABASE_URL: "https://glniatdvfntqijhcrngz.supabase.co"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdsbmlhdGR2Zm50cWlqaGNybmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MTU2MjIsImV4cCI6MjA5MTM5MTYyMn0.Vg3kd7MhNaGCQnk5erj9EgHfwDKTltkFhcSt6S5mloE"
