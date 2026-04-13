@@ -109,7 +109,7 @@ export default function Dashboard() {
 
       {/* Header */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h1 style={{ margin: 0, fontSize: '1.5rem' }}>⏱ TimeTracker 4</h1>
+        <h1 style={{ margin: 0, fontSize: '1.5rem' }}>⏱ TimeTracker 5</h1>
         <button
           onClick={async () => { await supabase.auth.signOut(); router.push('/login') }}
           style={{ padding: '0.5rem 1rem', background: '#f1f5f9', border: 'none', borderRadius: '6px' }}>
